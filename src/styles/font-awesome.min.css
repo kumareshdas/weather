@@ -1,0 +1,44 @@
+.bg-primary {
+ background-color: #900 !important;
+}
+
+.bg-circle
+{
+
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  padding: 180px 200px;
+  position:absolute;;
+  color: #blue;
+  text-align: center;
+  top:70%;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+
+  width: 150px;
+  height: 50px;
+  color:red;
+  padding: 180px 200px;
+  position:fixed;
+  border: 2px solid;
+  border-color: orangee;
+  border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
